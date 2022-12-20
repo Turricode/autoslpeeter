@@ -1,0 +1,5 @@
+version: "3.9"
+services:
+  spleeter:
+    build: spleeter/
+    entrypoint: ["/bin/sh"]
